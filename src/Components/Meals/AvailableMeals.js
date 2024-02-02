@@ -9,6 +9,26 @@ const DUMMY_MEALS = [
       price: 'Rs.380',
     },
     {
+      id: 'm7',
+      name: 'Fish Meals',
+      description: 'Healthy fish meals with fresh taste',
+      price: 'Rs.700',
+    },
+    {
+      id: 'm8',
+      name: 'Tandoori Chicken',
+      description: 'Juicy chicken with blended masalas ',
+      price: 'Rs.500', 
+    },
+    
+      {
+        id: 'm9',
+        name: 'Chicken Pasta',
+        description: 'Juicy pastas blended with Mexican sauce ',
+        price: 'Rs.320', 
+      },
+    
+    {
       id: 'm2',
       name: 'Chicken Momos',
       description: 'Pocket full of chicken',
@@ -21,11 +41,26 @@ const DUMMY_MEALS = [
       description: 'American, raw, meaty',
       price: 'Rs.350',
     },
+
+      {
+        id: 'm10',
+        name: 'Chicken Wrap',
+        description: 'Wrapped with full of meats inside ',
+        price: 'Rs.500', 
+      },
+
     {
       id: 'm4',
       name: 'Green Bowl',
       description: 'Healthy...and green...',
       price: 'Rs.400',
+    },
+    
+    {
+    id: 'm6',
+      name: 'Parottas',
+      description: 'Flaky and softy parotta with salna',
+      price: 'Rs.50',
     },
   ];
   const AvailableMeals=(() => {
@@ -41,6 +76,7 @@ const DUMMY_MEALS = [
           <Card>
             <ul>
                 {Menu}
+               
             </ul>
             </Card>
         </div>
