@@ -9,7 +9,8 @@ const Header=((props)=> {
         <Fragment>
             <header className={classes.header}>
                 <h1> MEALS FOR YOU</h1>
-                <Button/>
+                {/*This props .onclick is rendered from the parent i.e app.js */}
+                <Button onClick={props.onclick}/>
                 </header>
                 <div className={classes['main-image']}>
                     <img src={BannerImage} alt="delicious foods"/>
