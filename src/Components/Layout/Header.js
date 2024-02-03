@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Button from "./Button";
-import BannerImage from '../../Assets/Banner.jpg';
+import HeaderImage from '../../Assets/Header.jpg';
 
 
 import  classes from './Header.module.css';
@@ -13,7 +13,7 @@ const Header=((props)=> {
                 <Button onClick={props.onclick}/>
                 </header>
                 <div className={classes['main-image']}>
-                    <img src={BannerImage} alt="delicious foods"/>
+                    <img src={HeaderImage} alt="delicious foods"/>
                 </div>
             
         </Fragment>
