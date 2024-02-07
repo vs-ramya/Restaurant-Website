@@ -10,7 +10,7 @@ const Header=((props)=> {
             <header className={classes.header}>
                 <h1> MEALS FOR YOU</h1>
                 {/*This props .onclick is rendered from the parent i.e app.js */}
-                <Button onClick={props.onclick}/>
+                <Button onClick={props.onShowCart}/>
                 </header>
                 <div className={classes['main-image']}>
                     <img src={HeaderImage} alt="delicious foods"/>
